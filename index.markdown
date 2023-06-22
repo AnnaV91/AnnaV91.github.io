@@ -27,7 +27,7 @@ layout: default
 		{% for project in site.projects %}
 			  	<div class="project">
 					<div class="hover-seen">
-						<image src="/assets/projects/{{ project.handle }}/{{ project.primaryPreview }}"/>
+						<image src="/assets/projects/{{ project.handle }}/{{ project.hoverPreview }}"/>
 					</div>
 					<div class="hover-hidden">
 						<div class="skills">
@@ -35,7 +35,7 @@ layout: default
 					      		<image src="/assets/skills/{{skill}}.png"/>
 					      	{% endfor %}
 						</div>
-						<image src="/assets/projects/{{ project.handle }}/{{ project.hoverPreview }}"/>
+						<image src="/assets/projects/{{ project.handle }}/{{ project.primaryPreview }}"/>
 					</div>
 					<a class="button hover-hidden" href="{{ project.url }}">
 						<span>{{ project.displayName }}</span>
