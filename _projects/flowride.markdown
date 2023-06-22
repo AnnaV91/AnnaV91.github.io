@@ -1,12 +1,11 @@
 ---
 layout: project
-handle: flowride
-order: 2
+handle: project_2
 displayName: Flowride
 previousProject: project_1
 nextProject: project_3
-primaryPreview: titelblatt1.png
-hoverPreview: titelblatt1_2.png
+primaryPreview: titel1_flow.png
+hoverPreview: titel2_flow.png
 skills: [ adobexd ]
 contentImage: flowride.png
 
