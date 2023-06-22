@@ -1,6 +1,7 @@
 ---
 layout: project
-handle: project_2
+handle: flowride
+order: 2
 displayName: Flowride
 previousProject: project_1
 nextProject: project_3
