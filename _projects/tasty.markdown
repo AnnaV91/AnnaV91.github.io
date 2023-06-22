@@ -1,7 +1,7 @@
 ---
 layout: project # do not change
 handle: loxone # change to match folder name in assets/
-order: 1 # determines order in portfolio, 1 is displayed first
+order: 3 # determines order in portfolio, 1 is displayed first
 displayName: Tasty w/o Wasty # will be displayed to user
 previousProject: project_3 # handle of previous project 
 nextProject: flowride # handle of next project 
