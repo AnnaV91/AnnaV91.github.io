@@ -24,7 +24,8 @@ layout: default
 	</div>
 	<div class="wrapper">
 		<div class="columns-2">
-		{% for project in site.projects %}
+		{% assign projects = site.projects | sort: "order" %}
+		{% for project in projects %}
 			  	<div class="project">
 					<div class="hover-seen">
 						<image src="/assets/projects/{{ project.handle }}/{{ project.hoverPreview }}"/>
