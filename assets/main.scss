@@ -1,0 +1,355 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Width of the content area
+$content-width:    1200px !default;
+$header-font-family: Roc Grotesk;
+$paragraph-font-family: Helvetica;
+$button-font-family: Helvetica;
+$text-color: #824949;
+$background-color: #FFFCFC;
+@import "minima";
+
+/*
+  Theme overrides
+ */
+
+header.site-header {
+	border-top: 0;
+}
+/*
+@media screen and (min-width: $on-laptop * 2) {
+	.wrapper {
+		max-width: -webkit-calc(#{$content-width} * 2 - (#{$spacing-unit}));
+	  max-width:         calc(#{$content-width} * 2 - (#{$spacing-unit}));
+	  padding-right: $spacing-unit / 2;
+	  padding-left: $spacing-unit / 2;
+	}
+}*/
+
+body {
+	cursor: url(ui/mouse-pointer.svg), auto;
+}
+
+h1, h2, h3 {
+	font-family: $header-font-family; 
+}
+
+h1 {
+	font-size: 1.5rem;
+	line-height: 1.6rem;
+	font-weight: normal;
+}
+@media screen and (min-width: $on-laptop) {
+	h1 {
+		font-size: 2.2rem;
+		line-height: 2.3rem;
+	}
+}
+@media screen and (min-width: $on-laptop * 2) {
+	h1 {
+		font-size: 3rem;
+		line-height: 3.2rem;
+	}
+}
+
+h2 {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+@media screen and (min-width: $on-laptop) {
+	h2 {
+		font-size: 1.8rem;
+		font-weight: normal;
+	}
+}
+@media screen and (min-width: $on-laptop * 2) {
+	h2 {
+		font-size: 2.5rem;
+	}
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+@media screen and (min-width: $on-laptop) {
+	h3 {
+		font-size: 1.4rem;
+	}
+}
+@media screen and (min-width: $on-laptop * 2) {
+	h3 {
+		font-size: 1.7rem;
+	}
+}
+
+p {
+	font-family: $paragraph-font-family;
+}
+
+a {
+	font-family: $button-font-family;
+	cursor: url(ui/mouse-pointer-heart.svg), pointer;
+	text-decoration: none! important;
+
+	.arrow-visible-on-hover {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    vertical-align: middle;
+	}
+	&:hover .arrow-visible-on-hover {
+		opacity: 1;
+	}
+}
+
+.box-shadow {
+	box-shadow: 1px 2px 3px 1px #00000052
+}
+
+.box-shadow-high-blur {
+	box-shadow: 9px -13px 20px 1px #96959552
+}
+
+.btn {
+	display: inline-block;
+
+	&:hover {
+		filter: brightness(0.90);
+	}
+
+	&:visited {
+		filter: brightness(0.70);
+	}
+}
+
+.btn-primary {
+	border-radius: 6px;
+	color: white !important;
+	background-color: rgb(46, 124, 157);
+	padding: 0.7rem;
+	font-size: 1.2rem;
+}
+
+@media screen and (min-width: 800px) {
+	.btn-primary {
+		padding: 0.7 rem;
+		font-size: 1.2rem;
+	}
+}
+
+.btn-secondary {
+	border-radius: 6px;
+	color: #494949 !important;
+  border: #494949 1px solid;
+	padding: 0.7rem;
+	font-size: 1.1rem;
+	background-color: white;
+}
+
+
+@media screen and (min-width: 800px) {
+	.btn-secondary {
+		padding: 0.7rem;
+		font-size: 1.2rem;
+	}
+}
+
+.flex-center > .btn:nth-child(2) {
+	margin-left: 5px;
+}
+@media screen and (min-width: 800px) {
+	.flex-center > .btn:nth-child(2) {
+		margin-left: 20px;
+	}
+}
+
+.center {
+	text-align: center;
+}
+
+.center-children {
+	& > * {
+		text-align: center;
+	}
+}
+
+.flex {
+	display: flex;
+}
+
+
+@media screen and (min-width: 800px) {
+	.flex-center {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		& > :nth-child(n+2) {
+			padding-left: 20px;
+		}
+	}
+	.columns-2 {
+		display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+	}
+}
+
+.section-title {
+	background-color: $text-color;
+  color: white !important;
+  text-decoration: none !important;
+  height: 100px;
+  .wrapper {
+  	width: calc(1200px - (30px * 2));
+  	.wrapper-center {
+  		justify-content: space-between;
+	    display: flex;
+	    align-content: center;
+	    flex-wrap: wrap;
+	    text-align: center;
+	    height: 100px;
+	    a {
+	    	padding-top: 20px;
+	    	color: white !important;
+  			text-decoration: none !important;
+	    	* {
+	    		vertical-align: middle;
+	    	}
+	    }
+	    h2 {
+	    	display: inline-block;
+	    }
+  	}
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+  	margin-bottom: 0px;
+  }
+}
+
+/*
+************ Footer
+*/
+.site-footer {
+	background-color: $text-color;
+	* {
+		color: white !important;
+		text-decoration: none !important;
+	}
+	.footer-contact {
+		margin-left: 30%;
+		h2 {
+			font-size: 26px;
+		}
+	}
+}
+
+.legal-page {
+	margin-top: 30px;
+	display: flex;
+
+	.page-link {
+		margin-right: 20px;
+		color: #646464;
+		font-size: 14px;	
+		opacity: 0.6;
+		&:visited {
+			color: #646464
+		}
+	}
+}
+
+
+/*
+************ Landing page
+*/
+
+#intro {
+	min-height: calc(70vh - 55.95px);
+	position: relative;
+}
+
+#social-links {
+	position: absolute;
+	left: 20px;
+	top: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+#portfolio {
+	padding-bottom: 50px; 
+
+	.project {
+		position: relative; /* for absolute positioning of .button */
+		display: flex;
+		justify-content: center;
+
+		/*border: 1px solid black;
+		border-radius: 20px;*/
+	  min-height: 400px;
+		min-width: 344px;
+		margin: 40px;
+
+		.hover-hidden {
+			opacity: 1;
+			transition: opacity 0.5s ease-in-out;
+			position: relative; /* for absolute positioning of .skills */
+			.skills {
+				position: absolute;
+				top: 10%;
+				right: 10%;
+			}
+		}
+		&:hover .hover-hidden {
+			opacity: 0;
+		}
+		& .hover-seen {
+			position: absolute;
+			/*left: 0;
+			top: 0;*/
+			opacity: 0;
+			transition: opacity 0.5s ease-in-out;
+		}
+		&:hover .hover-seen {
+			opacity: 1;
+		}
+
+		.hover-container {
+			position: relative; /* for hover-seen/hidden positioning */
+		}
+
+		.button {
+			border: 2px $text-color solid;
+			border-radius: 30px;
+			padding: 15px 30px;
+			background-color: white;
+
+			position: absolute;
+			bottom: -28px;
+			* {
+				vertical-align: middle;
+			}
+			color: $text-color;
+			&:hover {
+				text-decoration: none;
+				color: $text-color;
+			}
+		}
+	}
+}
+
+
+
+/*
+************ Single project page
+*/
+
+
+.single-project-content {
+	margin: 60px 0px;
+}  
