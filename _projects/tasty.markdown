@@ -1,6 +1,6 @@
 ---
 layout: project # do not change
-handle: project_3 # change to match folder name in assets/
+handle: tasty # change to match folder name in assets/
 order: 3 # determines order in portfolio, 1 is displayed first
 displayName: Tasty w/o Wasty # will be displayed to user
 previousProject: project_3 # handle of previous project 
