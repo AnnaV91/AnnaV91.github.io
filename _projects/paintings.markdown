@@ -7,6 +7,6 @@ previousProject: project_3 # handle of previous project
 nextProject: flowride # handle of next project 
 primaryPreview: titel1.png # initially visible image in portfolio
 hoverPreview: titel2.png # hover image in portfolio
-skills: [figma] # list of skill for project. format is [ figma, adobeillustrator, adobephotoshop, adobeindesign, adobexd ]
+skills: [] # list of skill for project. format is [ figma, adobeillustrator, adobephotoshop, adobeindesign, adobexd ]
 contentImage: main_paintings.png # full image on single project page
 ---

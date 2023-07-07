@@ -4,8 +4,8 @@ layout: default
 
 <section id="intro" class="flex-center">
 	<div class="text-container center">
-      <h1>Hello I'm Anna,<br> a UX UI &<br>Graphic Designer</h1>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing<br>elitr, sed diam nonumy eirmod</p>
+      <h1>Hello I'm Anna,<br> a UX UI &<br>Graphic Designer </h1>
+     <!-- <p>Lorem ipsum dolor sit amet, consetetur sadipscing<br>elitr, sed diam nonumy eirmod</p> -->
       <div class="skills">
       	{% for skill in site.skills %}
       		<image src="/assets/skills/{{skill}}.png"/>
