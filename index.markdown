@@ -27,10 +27,10 @@ layout: default
 		{% assign projects = site.projects | sort: "order" %}
 		{% for project in projects %}
 			  	<a class="project" href="{{ project.url }}" style="box-shadow: -3px 15px 20px 6px #8249491a;">
-					<div class="hover-seen">
+					<div class="project-image hover-seen">
 						<image src="/assets/projects/{{ project.handle }}/{{ project.hoverPreview }}"/>
 					</div>
-					<div class="hover-hidden">
+					<div class="project-image hover-hidden">
 						<div class="skills">
 							{% for skill in project.skills %}
 								<image src="/assets/skills/{{skill}}.png"/>

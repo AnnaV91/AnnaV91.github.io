@@ -288,12 +288,17 @@ a {
 		position: relative; /* for absolute positioning of .button */
 		display: flex;
 		justify-content: center;
-
+		border-radius: 30px;
 		/*border: 1px solid black;
 		border-radius: 20px;*/
-	  min-height: 400px;
+	  	min-height: 400px;
 		min-width: 344px;
 		margin: 40px;
+		
+		.project-image {
+			border-radius: 30px;
+            overflow: hidden;
+		}  
 
 		.hover-hidden {
 			opacity: 1;
@@ -304,10 +309,13 @@ a {
 				top: 10%;
 				right: 10%;
 			}
+
 		}
+		
 		&:hover .hover-hidden {
 			opacity: 0;
 		}
+		
 		& .hover-seen {
 			position: absolute;
 			/*left: 0;
@@ -315,12 +323,9 @@ a {
 			opacity: 0;
 			transition: opacity 0.5s ease-in-out;
 		}
+		
 		&:hover .hover-seen {
 			opacity: 1;
-		}
-
-		.hover-container {
-			position: relative; /* for hover-seen/hidden positioning */
 		}
 
 		.button {
