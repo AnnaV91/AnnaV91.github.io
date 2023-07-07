@@ -7,7 +7,7 @@ previousProject: loxone
 nextProject: tasty
 primaryPreview: titel1_flow.png
 hoverPreview: titel2_flow.png
-skills: [ adobexd2, adobeillustrator2, adobeindesign2 ]
+skills: [ adobexd, adobeillustrator, adobeindesign ]
 contentImage: flowride.png
 
 ---
