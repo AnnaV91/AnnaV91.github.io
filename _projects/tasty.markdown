@@ -7,6 +7,6 @@ previousProject: flowride # handle of previous project
 nextProject: paintings # handle of next project 
 primaryPreview: titel1_tasty.png # initially visible image in portfolio
 hoverPreview: titel2_tasty.png # hover image in portfolio
-skills: [figma, adobeindesign, adobeillustrator] # list of skill for project. format is [ figma, adobeillustrator, adobephotoshop, adobeindesign, adobexd ]
+skills: [figma, adobeindesign, adobeillustrator] # list of skill for project. format is [ figma2, adobeillustrator2, adobephotoshop2, adobeindesign, adobexd2 ]
 contentImage: main_tasty.png # full image on single project page
 ---
