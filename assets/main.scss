@@ -281,7 +281,12 @@ a {
 	top: 30%;
 	display: flex;
 	flex-direction: column;
+	a:hover {
+		opacity: 0.3;
+	}
 }
+
+
 
 #portfolio {
 	padding-bottom: 50px; 
