@@ -5,10 +5,10 @@ order: 2
 displayName: Flowride
 previousProject: loxone
 nextProject: tasty
-primaryPreview: titel1_flow.png
-hoverPreview: titel2_flow.png
-skills: [ adobexd, adobeillustrator, adobeindesign ]
-contentImage: flowride.png
+primaryPreview: kiga1.png
+hoverPreview: kiga2.png
+skills: [ adobexd]
+contentImage: kigamain.png
 
 ---
 
