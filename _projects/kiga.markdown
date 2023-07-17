@@ -1,8 +1,8 @@
 ---
 layout: project
-handle: flowride
+handle: kiga
 order: 2
-displayName: Flowride
+displayName: KigaSuche
 previousProject: loxone
 nextProject: tasty
 primaryPreview: kiga1.png
