@@ -211,9 +211,9 @@ body { cursor: url(ui/mouse-pointer.svg), auto; }
 
 h1, h2, h3 { font-family: Roc Grotesk; }
 
-h1 { font-size: 1.5rem; line-height: 1.6rem; font-weight: normal; }
+h1 { font-size: 2rem; line-height: 1.6rem; font-weight: normal; }
 
-@media screen and (min-width: 800px) { h1 { font-size: 2.2rem; line-height: 2.3rem; } }
+@media screen and (min-width: 800px) { h1 { font-size: 2.8rem; line-height: 2.3rem; } }
 @media screen and (min-width: 1600px) { h1 { font-size: 3rem; line-height: 3.2rem; } }
 h2 { font-size: 1.4rem; font-weight: bold; }
 
@@ -258,7 +258,7 @@ a:hover .arrow-visible-on-hover { opacity: 1; }
 .section-title { background-color: #824949; color: white !important; text-decoration: none !important; height: 100px; display: flex; align-items: center; justify-content: center; }
 .section-title .wrapper { width: calc(1200px - (30px * 2)); }
 .section-title .wrapper .wrapper-center { justify-content: space-between; display: flex; align-content: center; flex-wrap: wrap; text-align: center; height: 100px; }
-.section-title .wrapper .wrapper-center a { padding-top: 20px; color: white !important; text-decoration: none !important; }
+.section-title .wrapper .wrapper-center a { padding-top: 7px; color: white !important; text-decoration: none !important; }
 .section-title .wrapper .wrapper-center a * { vertical-align: middle; }
 .section-title .wrapper .wrapper-center h2 { display: inline-block; }
 .section-title h2 { margin-bottom: 0px; }
@@ -267,8 +267,8 @@ a:hover .arrow-visible-on-hover { opacity: 1; }
 ************ Footer
 */
 .site-footer { background-color: #824949; }
-.site-footer * { color: white !important; text-decoration: none !important; }
-.site-footer .footer-contact { margin-left: 30%; }
+.site-footer * { color: white !important; text-decoration: none !important; text-align: center; }
+.site-footer .footer-contact { text-align: center; }
 .site-footer .footer-contact h2 { font-size: 26px; }
 
 .legal-page { margin-top: 30px; display: flex; }
@@ -281,17 +281,18 @@ a:hover .arrow-visible-on-hover { opacity: 1; }
 #intro { min-height: calc(70vh - 55.95px); position: relative; }
 
 #social-links { position: absolute; left: 20px; top: 30%; display: flex; flex-direction: column; }
+#social-links a:hover { opacity: 0.3; }
 
 #portfolio { padding-bottom: 50px; }
-#portfolio .project { position: relative; /* for absolute positioning of .button */ display: flex; justify-content: center; /*border: 1px solid black;
+#portfolio .project { position: relative; /* for absolute positioning of .button */ display: flex; justify-content: center; border-radius: 30px; /*border: 1px solid black;
 border-radius: 20px;*/ min-height: 400px; min-width: 344px; margin: 40px; }
+#portfolio .project .project-image { border-radius: 30px; overflow: hidden; }
 #portfolio .project .hover-hidden { opacity: 1; transition: opacity 0.5s ease-in-out; position: relative; /* for absolute positioning of .skills */ }
 #portfolio .project .hover-hidden .skills { position: absolute; top: 10%; right: 10%; }
 #portfolio .project:hover .hover-hidden { opacity: 0; }
 #portfolio .project .hover-seen { position: absolute; /*left: 0;
 top: 0;*/ opacity: 0; transition: opacity 0.5s ease-in-out; }
 #portfolio .project:hover .hover-seen { opacity: 1; }
-#portfolio .project .hover-container { position: relative; /* for hover-seen/hidden positioning */ }
 #portfolio .project .button { border: 2px #824949 solid; border-radius: 30px; padding: 15px 30px; background-color: white; position: absolute; bottom: -28px; color: #824949; }
 #portfolio .project .button * { vertical-align: middle; }
 #portfolio .project .button:hover { text-decoration: none; color: #824949; }
