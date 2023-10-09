@@ -14,7 +14,7 @@ layout: default
       <div id="social-links">
       	<a href="https://www.behance.net/annavasilevich" target="_blank"><image src="/assets/social/Icon_awesome-behance-square.png"/></a>
       	<a href="https://www.linkedin.com/in/anna-vasilevich1627/" target="_blank"><image src="/assets/social/Icon_awesome-linkedin.png"/></a>
-      	<a href="https://www.behance.net/annavasilevich" target="_blank"><image src="/assets/social/Icon_instagramm.png"/></a>
+      <!--<a href="https://www.behance.net/annavasilevich" target="_blank"><image src="/assets/social/Icon_instagramm.png"/></a>  -->
       </div>
 	</div>
 </section>
