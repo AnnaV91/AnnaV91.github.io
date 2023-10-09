@@ -4,8 +4,8 @@ layout: default
 
 <section id="intro" class="flex-center">
 	<div class="text-container center">
-      <h1>Hello I'm Anna,<br> a UX UI &<br>Graphic Designer </h1>
-     <p> My goal is to empower users through interfaces that enhance their interactions. <br> I'm driven by the belief that design should be accessible, intuitive, and enjoyable for all.</p>
+      <h1>Hi! I'm Anna, a UX UI &<br> Graphic Designer </h1>
+       <p> My goal is to empower users through interfaces that enhance their interactions. <br> I'm driven by the belief that design should be accessible, intuitive, and enjoyable for all.</p>
       <div class="skills">
       	{% for skill in site.skills %}
       		<image src="/assets/skills/{{skill}}.png"/>

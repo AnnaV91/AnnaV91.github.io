@@ -4,7 +4,7 @@
 
 // Width of the content area
 $content-width:    1200px !default;
-$header-font-family: Roc Grotesk;
+$header-font-family: roc-grotesk;
 $paragraph-font-family: Helvetica;
 $button-font-family: Helvetica;
 $text-color: #824949;
@@ -38,19 +38,19 @@ h1, h2, h3 {
 
 h1 {
 	font-size: 2rem;
-	line-height: 1.6rem;
+	line-height: 2.6rem;
 	font-weight: normal;
 }
 @media screen and (min-width: $on-laptop) {
 	h1 {
 		font-size: 2.8rem;
-		line-height: 2.3rem;
+		line-height: 3.3rem;
 	}
 }
 @media screen and (min-width: $on-laptop * 2) {
 	h1 {
 		font-size: 3rem;
-		line-height: 3.2rem;
+		line-height: 3.8rem;
 	}
 }
 
