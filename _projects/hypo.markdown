@@ -2,7 +2,7 @@
 layout: project # do not change
 handle: hypo # change to match folder name in assets/
 order: 1 # determines order in portfolio, 1 is displayed first
-displayName: Tasty w/o Wasty # will be displayed to user
+displayName: Hypo Bildung # will be displayed to user
 previousProject: paintings # handle of previous project 
 nextProject: loxone # handle of next project 
 primaryPreview: hypo1.png # initially visible image in portfolio
