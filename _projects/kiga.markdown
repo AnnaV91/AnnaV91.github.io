@@ -1,10 +1,10 @@
 ---
 layout: project
 handle: kiga
-order: 2
+order: 3
 displayName: KigaSuche
 previousProject: loxone
-nextProject: tasty
+nextProject: paintings
 primaryPreview: kiga1.png
 hoverPreview: kiga2.png
 skills: [ adobexd]
