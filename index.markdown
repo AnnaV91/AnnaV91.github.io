@@ -10,9 +10,16 @@ layout: default
 <section id="intro" class="flex-center">
 	<div class="text-container center">
       <h1>Hi! I'm Anna, a UX UI Designer </h1>
+		 <a href="Anna_Vasilevich_lebenslauf_2024.pdf" download="Anna_Vasilevich_lebenslauf_2024.pdf" 
+       style="display: inline-block; padding: 10px 20px; background-color: green; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s ease;" 
+       id="download-button">
+        Download my CV here
+    </a>
 		<h3 ><a href="Anna_Vasilevich_lebenslauf_2024.pdf" download="Anna_Vasilevich_lebenslauf_2024.pdf" style="color: #85B981;"> > Download my CV here < </a> </h3>
 			
-			
+
+		
+		
 		
        <!--<p> My goal is to empower users through interfaces that enhance their interactions. <br> I'm driven by the belief that design should be accessible, intuitive, and enjoyable for all.</p>-->
       <div class="skills">
