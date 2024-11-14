@@ -10,7 +10,7 @@ layout: default
 <section id="intro" class="flex-center">
 	<div class="text-container center">
       <h1>Hi! I'm Anna, a UX UI Designer </h1>
-		<h3 ><a href="Anna_Vasilevich_lebenslauf_2024.pdf" download="Anna_Vasilevich_lebenslauf_2024.pdf" style="color: #85B981;"> > Download my CV here < </a> </h3>
+	
 			
 
 		
