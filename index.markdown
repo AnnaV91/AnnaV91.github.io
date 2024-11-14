@@ -5,7 +5,7 @@ layout: default
 <section id="intro" class="flex-center">
 	<div class="text-container center">
       <h1>Hi! I'm Anna, a UX UI Designer </h1>
-		<h3 ><a href="Anna_Vasilevich_lebenslauf_2024.pdf" download="Anna_Vasilevich_lebenslauf_2024.pdf" style="color: #00ff00;"> > Download my CV here < </a> </h3>
+		<h3 ><a href="Anna_Vasilevich_lebenslauf_2024.pdf" download="Anna_Vasilevich_lebenslauf_2024.pdf" style="color: #81B998;"> > Download my CV here < </a> </h3>
 		
        <!--<p> My goal is to empower users through interfaces that enhance their interactions. <br> I'm driven by the belief that design should be accessible, intuitive, and enjoyable for all.</p>-->
       <div class="skills">
