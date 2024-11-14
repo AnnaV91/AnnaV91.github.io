@@ -9,7 +9,7 @@ layout: default
 
 <section id="intro" class="flex-center">
 	<div class="text-container center">
-      <h1>Hi! I'm Anna, a UX UI Designer </h1>
+      <h1>Hi! I'm Anna, a UX UI Designer. </h1>
 	
 			
 
