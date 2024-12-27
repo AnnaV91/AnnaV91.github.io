@@ -11,13 +11,13 @@ layout: default
 	<div class="text-container center">
       <h1>Hi! I'm Anna, a UX/UI Designer. </h1>
 		<h2>I worked for...</h2>
-		<div style="display: block; width: 500px; height: 300px;">
-			<image src="/logosfuerportfolio/stiegl.png"/>
-		    <image src="/logosfuerportfolio/loxone.png"/>
-	        <image src="/logosfuerportfolio/hypobildung.png"/>
-			<image src="/logosfuerportfolio/kwizda.png"/>
-			<image src="/logosfuerportfolio/kigaweb.png"/>
-			<image src="/logosfuerportfolio/soundsolution.jpg"/>
+		<div style="display: flex; flex-wrap: wrap; justify-content: center; width: 500px; height: 300px;">
+			<image src="/logosfuerportfolio/stiegl.png" width="200" height="150"/>
+		    <image src="/logosfuerportfolio/loxone.png"width="200" height="150"/>
+	        <image src="/logosfuerportfolio/hypobildung.png" width="200" height="150"/>
+			<image src="/logosfuerportfolio/kwizda.png" width="200" height="150"/>
+			<image src="/logosfuerportfolio/kigaweb.png" width="200" height="150"/>
+			<image src="/logosfuerportfolio/soundsolution.jpg" width="200" height="150"/>
 		</div>
 	
 			
