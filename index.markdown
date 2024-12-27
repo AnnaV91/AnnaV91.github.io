@@ -17,7 +17,7 @@ layout: default
 	        <image src="/logosfuerportfolio/hypobildung.png"/>
 			<image src="/logosfuerportfolio/kwizda.png"/>
 			<image src="/logosfuerportfolio/kigaweb.png"/>
-			<image src="/logosfuerportfolio/soundsolution.jpg"/>
+			<image src="/logosfuerportfolio/soundsolution.png"/>
 		</div>
 		<h2>I use...</h2>
 	
