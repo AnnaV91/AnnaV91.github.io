@@ -15,8 +15,8 @@ layout: default
 			<image src="/logosfuerportfolio/stiegl.png"  height="80"/>
 		    <image src="/logosfuerportfolio/loxone.png" height="80"/>
 	        <image src="/logosfuerportfolio/hypobildung.png"  height="80"/>
-			<image src="/logosfuerportfolio/kwizda.png"  width ="150"/>
-			<image src="/logosfuerportfolio/kigaweb.png"  width = "150"/>
+			<image src="/logosfuerportfolio/kwizda.png"  height="50"/>
+			<image src="/logosfuerportfolio/kigaweb.png"  height="50"/>
 			<image src="/logosfuerportfolio/soundsolution.jpg"  height="80"/>
 		</div>
 	
