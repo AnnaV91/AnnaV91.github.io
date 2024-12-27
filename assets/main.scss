@@ -14,6 +14,17 @@ $background-color: #FFFCFC;
 /*
   Theme overrides
  */
+.logo_div {
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	align-items: center; 
+	width: 1200px; 
+	height: 150px;"
+}
+
+
+ 
 
 header.site-header {
 	border-top: 0;

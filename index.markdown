@@ -11,7 +11,7 @@ layout: default
 	<div class="text-container center">
       <h1>Hi! I'm Anna, a UX/UI Designer. </h1>
 		<h2>I worked for...</h2>
-		<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; width: 1200px; height: 200px;">
+		<div class="logo_div">
 			<image src="/logosfuerportfolio/stiegl.png"  height="80"/>
 		    <image src="/logosfuerportfolio/loxone.png" height="50"/>
 	        <image src="/logosfuerportfolio/hypobildung.png"  height="50"/>
