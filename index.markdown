@@ -12,7 +12,11 @@ layout: default
       <h1>Hi! I'm Anna, a UX/UI Designer. </h1>
 		<h2>I worked for...</h2>
 		<div>
-			<image src="logosfuerportofilio/stiegl.png"/></a>
+			<image src="logosfuerportofolio/stiegl.png"/></a>
+		    <image src="logosfuerportofolio/loxone.png"/></a>
+	        <image src="logosfuerportofolio/hypobildung.png"/></a>
+			<image src="logosfuerportofolio/kwizda.png"/></a>
+			<image src="logosfuerportofolio/kigaweb.png"/></a>
 		</div>
 	
 			
