@@ -12,12 +12,12 @@ layout: default
       <h1>Hi! I'm Anna, a UX/UI Designer. </h1>
 		<h2>I worked for...</h2>
 		<div style="display: flex; flex-wrap: wrap; justify-content: center; width: 1000px; height: 300px;">
-			<image src="/logosfuerportfolio/stiegl.png"  height="150"/>
-		    <image src="/logosfuerportfolio/loxone.png" height="150"/>
-	        <image src="/logosfuerportfolio/hypobildung.png"  height="150"/>
-			<image src="/logosfuerportfolio/kwizda.png"  height="150"/>
-			<image src="/logosfuerportfolio/kigaweb.png"  height="150"/>
-			<image src="/logosfuerportfolio/soundsolution.jpg"  height="150"/>
+			<image src="/logosfuerportfolio/stiegl.png"  height="100"/>
+		    <image src="/logosfuerportfolio/loxone.png" height="100"/>
+	        <image src="/logosfuerportfolio/hypobildung.png"  height="100"/>
+			<image src="/logosfuerportfolio/kwizda.png"  height="100"/>
+			<image src="/logosfuerportfolio/kigaweb.png"  height="100"/>
+			<image src="/logosfuerportfolio/soundsolution.jpg"  height="100"/>
 		</div>
 	
 			
