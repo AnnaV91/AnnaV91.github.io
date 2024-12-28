@@ -10,7 +10,7 @@ layout: default
 <section id="intro" class="flex-center">
 	<div class="text-container center">
       <h1>Hi! I'm Anna, a UX/UI Designer. </h1>
-		<h2>I worked for...</h2>
+		<h3>I worked for...</h3>
 		<div class="logo_div">
 			<image src="/logosfuerportfolio/stiegl.png"/>
 		    <image src="/logosfuerportfolio/loxone.png"/>
@@ -19,7 +19,7 @@ layout: default
 			<image src="/logosfuerportfolio/kigaweb.png"/>
 			<image src="/logosfuerportfolio/soundsolution.png"/>
  			</div>
-		<h2>I use...</h2>
+		<h3>I use...</h3>
 	
 	    
 
