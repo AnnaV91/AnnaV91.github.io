@@ -1,44 +1,38 @@
 ---
 layout: default
 ---
+
 <style>
     #download-link:hover {
         color: darkgreen; 
     }
 </style>
 
-<section id="intro" class="flex-center">
-	<div class="text-container center">
+<section id="intro">
+	<div class="center">
       <h1>Hi! I'm Anna, a UX/UI Designer. </h1>
-		<h3>I worked for...</h3>
-		<div class="logo_div">
-			<image src="/logosfuerportfolio/stiegl.png"/>
-		    <image src="/logosfuerportfolio/loxone.png"/>
-	        <image src="/logosfuerportfolio/hypobildung.png"/>
-			<image src="/logosfuerportfolio/kwizda.png"/>
-			<image src="/logosfuerportfolio/kigaweb.png"/>
-			<image src="/logosfuerportfolio/soundsolution.png"/>
- 			</div>
-		<h3>I use...</h3>
-	
-	    
-
-		
-		
-		
-       <!--<p> My goal is to empower users through interfaces that enhance their interactions. <br> I'm driven by the belief that design should be accessible, intuitive, and enjoyable for all.</p>-->
-      <div class="skills">
-      	{% for skill in site.skills %}
-      		<image src="/assets/skills/{{skill}}.png"/>
-      	{% endfor %}
-      </div>
-      <div id="social-links">
-      	<a href="https://www.behance.net/annavasilevich" target="_blank"><image src="/assets/social/Icon_awesome-behance-square.png"/></a>
-      	<a href="https://www.linkedin.com/in/anna-vasilevich1627/" target="_blank"><image src="/assets/social/Icon_awesome-linkedin.png"/></a>
-      <!--
-	  <a href="https://www.behance.net/annavasilevich" target="_blank"><image src="/assets/social/Icon_instagramm.png"/></a>
-	  -->
-      </div>
+	  <div class="worked-for">
+			<h3>I worked for...</h3>
+			<div class="logo_div">
+				<image src="/logosfuerportfolio/stiegl.png"/>
+				<image src="/logosfuerportfolio/loxone.png"/>
+				<image src="/logosfuerportfolio/hypobildung.png"/>
+				<image src="/logosfuerportfolio/kwizda.png"/>
+				<image src="/logosfuerportfolio/kigaweb.png"/>
+				<image src="/logosfuerportfolio/soundsolution.png"/>
+			</div>
+		</div>
+		<div class="skills">
+			<h3>I use...</h3>
+			{% for skill in site.skills %}
+				<image src="/assets/skills/{{skill}}.png"/>
+			{% endfor %}
+		</div>
+		<!--
+		<div id="social-links">
+			<a href="https://www.behance.net/annavasilevich" target="_blank"><image src="/assets/social/Icon_awesome-behance-square.png"/></a>
+			<a href="https://www.linkedin.com/in/anna-vasilevich1627/" target="_blank"><image src="/assets/social/Icon_awesome-linkedin.png"/></a>
+		</div>-->
 	</div>
 </section>
 <section id="portfolio">

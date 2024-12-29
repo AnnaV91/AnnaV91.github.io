@@ -19,19 +19,26 @@ $background-color: #FFFCFC;
 	flex-wrap: wrap; 
 	justify-content: center; 
 	align-items: center; 
-	height: 60px;
 	gap: 30px;
 	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .logo_div > img {
 	height: 60px;
 }
- 
 
-header.site-header {
-	border-top: 0;
+@media screen (max-width: $on-phone) {
+	.logo_div { 
+	    gap: 15px;	
+     }
 }
+
+.skills {
+	margin-bottom: 30px;
+}
+
 /*
 @media screen and (min-width: $on-laptop * 2) {
 	.wrapper {
@@ -46,6 +53,8 @@ body {
 	cursor: url(ui/mouse-pointer.svg), auto;
 }
 
+
+
 h1, h2, h3 {
 	font-family: $header-font-family; 
 }
@@ -54,7 +63,8 @@ h1 {
 	font-size: 2rem;
 	line-height: 2.6rem;
 	font-weight: normal;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 @media screen and (min-width: $on-laptop) {
 	h1 {
@@ -290,13 +300,19 @@ a {
 }
 
 #social-links {
-	position: absolute;
-	left: 20px;
-	top: 30%;
-	display: flex;
-	flex-direction: column;
-	a:hover {
-		opacity: 0.3;
+	display: none;
+}
+
+@media screen and (min-width: $on-laptop) {
+	#social-links {
+		position: absolute;
+		left: 20px;
+		top: 30%;
+		display: flex;
+		flex-direction: column;
+		a:hover {
+			opacity: 0.3;
+		}
 	}
 }
 
