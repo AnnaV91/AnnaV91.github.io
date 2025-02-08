@@ -19,7 +19,7 @@ $background-color: #FFFCFC;
 	flex-wrap: wrap; 
 	justify-content: center; 
 	align-items: center; 
-	gap: 30px;
+	gap: 15px;
 	margin-bottom: 30px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -29,10 +29,10 @@ $background-color: #FFFCFC;
 	height: 60px;
 }
 
-@media screen (max-width: $on-phone) {
+@media screen and (min-width: $on-laptop) {
 	.logo_div { 
-	    gap: 15px;	
-     }
+		gap: 30px;
+	}
 }
 
 .skills {
